@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="site.conit.app.blackboard"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:12:5-66
+14-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:12:22-64
+15    <!-- Permissions options for the `location` group -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:15:5-79
+16-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:15:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Permissions options for the `storage` group -->
+17-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:16:5-81
+17-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:16:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:19:5-79
+18-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:19:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Permissions options for the `camera` group -->
+19-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:20:5-80
+19-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:20:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:23:5-64
+20-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:23:22-62
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:camera] E:\projects\flutter\Site-Blackboard-App\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+21-->[:camera] E:\projects\flutter\Site-Blackboard-App\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+22
+23    <application
+23-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:25:5-63:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:26:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\37900463554ec0bbe932df8a5807ef32\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:28:9-43
+28        android:label="SITE電子小黒板" >
+28-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:27:9-34
+29        <activity
+29-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:29:9-57:20
+30            android:name="site.conit.app.blackboard.MainActivity"
+30-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:30:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:33:13-163
+32            android:hardwareAccelerated="true"
+32-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:34:13-47
+33            android:launchMode="singleTop"
+33-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:31:13-43
+34            android:theme="@style/LaunchTheme"
+34-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:32:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:35:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:40:13-43:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:41:15-70
+45                android:resource="@style/NormalTheme" />
+45-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:42:15-52
+46            <!--
+47                 Displays an Android View that continues showing the launch screen
+48                 Drawable until Flutter paints its first frame, then this splash
+49                 screen fades out. A splash screen is useful to avoid any visual
+50                 gap between the end of Android's launch screen and the painting of
+51                 Flutter's first frame.
+52            -->
+53            <meta-data
+53-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:49:13-52:17
+54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:50:15-79
+55                android:resource="@drawable/launch_background" />
+55-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:51:15-61
+56
+57            <intent-filter>
+57-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:53:13-56:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:54:17-68
+58-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:54:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:55:17-76
+60-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:55:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-item below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:60:9-62:33
+68            android:name="flutterEmbedding"
+68-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:61:13-44
+69            android:value="2" />
+69-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:62:13-30
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\630c11a65dcdf24126e49218612e821e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\630c11a65dcdf24126e49218612e821e\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\630c11a65dcdf24126e49218612e821e\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\630c11a65dcdf24126e49218612e821e\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\d2ebf68b02fb9f0bd80ef2dfcd4eb583\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\d2ebf68b02fb9f0bd80ef2dfcd4eb583\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\d2ebf68b02fb9f0bd80ef2dfcd4eb583\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>

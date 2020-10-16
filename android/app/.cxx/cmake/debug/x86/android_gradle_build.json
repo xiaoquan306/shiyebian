@@ -1,0 +1,68 @@
+{
+  "stringTable": {
+    "0": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
+    "E:\\projects\\flutter\\Site-Blackboard-App\\android\\app\\CMakeLists.txt",
+    "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\P0158609\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\projects\\flutter\\Site-Blackboard-App\\android\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\P0158609\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\projects\\flutter\\Site-Blackboard-App\\android\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "write_hash-Debug-x86": {
+      "buildCommand": "C:\\Users\\P0158609\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\projects\\flutter\\Site-Blackboard-App\\android\\app\\.cxx\\cmake\\debug\\x86\" write_hash",
+      "buildType": "debug",
+      "toolchain": "740133084",
+      "abi": "x86",
+      "artifactName": "write_hash",
+      "files": [
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\writeHashLib.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app1.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app5.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\common.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\exif.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\sha256.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "E:\\projects\\flutter\\Site-Blackboard-App\\build\\app\\intermediates\\cmake\\debug\\obj\\x86\\libwrite_hash.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "740133084": {
+      "cCompilerExecutable": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\writeHashLib.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\writeHashLib.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\writeHashLib.c"
+},
+
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app1.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app1.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app1.c"
+},
+
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app5.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app5.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\app5.c"
+},
+
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\common.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\common.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\common.c"
+},
+
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\exif.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\exif.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\exif.c"
+},
+
+{
+  "directory": "E:/projects/flutter/Site-Blackboard-App/android/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\P0158609\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/P0158609/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dwrite_hash_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\write_hash.dir\\E_\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\sha256.c.o   -c E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\sha256.c",
+  "file": "E:\\projects\\flutter\\Site-Blackboard-App\\ios\\Classes\\write_hash\\sha256.c"
+}
+]

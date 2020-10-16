@@ -1,0 +1,4 @@
+com/peersafe/edit_exif/FlutterExifPlugin.java
+ com.peersafe.edit_exif.FlutterExifPlugin
+com/peersafe/edit_exif/BuildConfig.java
+ com.peersafe.edit_exif.BuildConfig

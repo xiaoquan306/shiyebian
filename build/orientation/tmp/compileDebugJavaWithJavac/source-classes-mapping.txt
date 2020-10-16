@@ -1,0 +1,8 @@
+com/github/sososdk/orientation/OrientationPlugin.java
+ com.github.sososdk.orientation.OrientationPlugin
+com/github/sososdk/orientation/MethodCallHandlerImpl.java
+ com.github.sososdk.orientation.MethodCallHandlerImpl
+ com.github.sososdk.orientation.MethodCallHandlerImpl$1
+ com.github.sososdk.orientation.MethodCallHandlerImpl$1$1
+com/github/sososdk/orientation/BuildConfig.java
+ com.github.sososdk.orientation.BuildConfig

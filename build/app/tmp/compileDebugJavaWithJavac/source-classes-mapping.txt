@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+site/conit/app/blackboard/BuildConfig.java
+ site.conit.app.blackboard.BuildConfig

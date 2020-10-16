@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "com.peersafe.edit_exif",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "edit_exif-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/debug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.peersafe.edit_exif",
+        "split": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1327700029/camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1327700029/camera.iml" group="android/camera" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/564122370/flutter_stetho.iml" filepath="$PROJECT_DIR$/.idea/modules/564122370/flutter_stetho.iml" group="android/flutter_stetho" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/15629248/orientation.iml" filepath="$PROJECT_DIR$/.idea/modules/15629248/orientation.iml" group="android/orientation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/252899060/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/252899060/path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1215042457/permission_handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1215042457/permission_handler.iml" group="android/permission_handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1734624334/sqflite.iml" filepath="$PROJECT_DIR$/.idea/modules/1734624334/sqflite.iml" group="android/sqflite" />
+    </modules>
+  </component>
+</project>

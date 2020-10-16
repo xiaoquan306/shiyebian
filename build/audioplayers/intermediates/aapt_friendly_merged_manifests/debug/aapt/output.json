@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "xyz.luan.audioplayers",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "0.1.0",
+        "outputFile": "audioplayers-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "xyz.luan.audioplayers",
+        "split": ""
+      }
+    }
+  ]
+}
