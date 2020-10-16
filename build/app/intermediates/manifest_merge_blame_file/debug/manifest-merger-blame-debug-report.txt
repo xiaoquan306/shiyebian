@@ -12,53 +12,53 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:12:5-66
-14-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:12:22-64
+14-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:12:5-66
+14-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:12:22-64
 15    <!-- Permissions options for the `location` group -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:15:5-79
-16-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:15:22-76
+16-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:15:5-79
+16-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:15:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Permissions options for the `storage` group -->
-17-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:16:5-81
-17-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:16:22-78
+17-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:16:5-81
+17-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:16:22-78
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:19:5-79
-18-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:19:22-77
+18-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:19:5-79
+18-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:19:22-77
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Permissions options for the `camera` group -->
-19-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:20:5-80
-19-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:20:22-78
+19-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:20:5-80
+19-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:20:22-78
 20    <uses-permission android:name="android.permission.CAMERA" />
-20-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:23:5-64
-20-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:23:22-62
+20-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:23:5-64
+20-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:23:22-62
 21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-21-->[:camera] E:\projects\flutter\Site-Blackboard-App\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
-21-->[:camera] E:\projects\flutter\Site-Blackboard-App\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+21-->[:camera] E:\projects\flutter\beifen\shiyebian\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+21-->[:camera] E:\projects\flutter\beifen\shiyebian\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
 22
 23    <application
-23-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:25:5-63:19
+23-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:25:5-63:19
 24        android:name="io.flutter.app.FlutterApplication"
-24-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:26:9-57
+24-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:26:9-57
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.1.0] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\37900463554ec0bbe932df8a5807ef32\core-1.1.0\AndroidManifest.xml:24:18-86
 26        android:debuggable="true"
 27        android:icon="@mipmap/ic_launcher"
-27-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:28:9-43
+27-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:28:9-43
 28        android:label="SITE電子小黒板" >
-28-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:27:9-34
+28-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:27:9-34
 29        <activity
-29-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:29:9-57:20
+29-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:29:9-57:20
 30            android:name="site.conit.app.blackboard.MainActivity"
-30-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:30:13-41
+30-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:30:13-41
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-31-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:33:13-163
+31-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:33:13-163
 32            android:hardwareAccelerated="true"
-32-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:34:13-47
+32-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:34:13-47
 33            android:launchMode="singleTop"
-33-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:31:13-43
+33-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:31:13-43
 34            android:theme="@style/LaunchTheme"
-34-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:32:13-47
+34-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:32:13-47
 35            android:windowSoftInputMode="adjustResize" >
-35-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:35:13-55
+35-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:35:13-55
 36
 37            <!--
 38                 Specifies an Android theme to apply to this Activity as soon as
@@ -67,11 +67,11 @@
 41                 to determine the Window background behind the Flutter UI.
 42            -->
 43            <meta-data
-43-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:40:13-43:17
+43-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:40:13-43:17
 44                android:name="io.flutter.embedding.android.NormalTheme"
-44-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:41:15-70
+44-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:41:15-70
 45                android:resource="@style/NormalTheme" />
-45-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:42:15-52
+45-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:42:15-52
 46            <!--
 47                 Displays an Android View that continues showing the launch screen
 48                 Drawable until Flutter paints its first frame, then this splash
@@ -80,21 +80,21 @@
 51                 Flutter's first frame.
 52            -->
 53            <meta-data
-53-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:49:13-52:17
+53-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:49:13-52:17
 54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-54-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:50:15-79
+54-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:50:15-79
 55                android:resource="@drawable/launch_background" />
-55-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:51:15-61
+55-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:51:15-61
 56
 57            <intent-filter>
-57-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:53:13-56:29
+57-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:53:13-56:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:54:17-68
-58-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:54:25-66
+58-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:54:17-68
+58-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:54:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:55:17-76
-60-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:55:27-74
+60-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:55:17-76
+60-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:55:27-74
 61            </intent-filter>
 62        </activity>
 63        <!--
@@ -102,11 +102,11 @@
 65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 66        -->
 67        <meta-data
-67-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:60:9-62:33
+67-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:60:9-62:33
 68            android:name="flutterEmbedding"
-68-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:61:13-44
+68-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:61:13-44
 69            android:value="2" />
-69-->E:\projects\flutter\Site-Blackboard-App\android\app\src\main\AndroidManifest.xml:62:13-30
+69-->E:\projects\flutter\beifen\shiyebian\android\app\src\main\AndroidManifest.xml:62:13-30
 70
 71        <activity
 71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\P0158609\.gradle\caches\transforms-2\files-2.1\630c11a65dcdf24126e49218612e821e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75

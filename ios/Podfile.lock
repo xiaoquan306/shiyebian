@@ -1,0 +1,73 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - edit_exif (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_stetho (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - "geolocator (6.0.0+4)":
+    - Flutter
+  - orientation (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - edit_exif (from `.symlinks/plugins/edit_exif/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_stetho (from `.symlinks/plugins/flutter_stetho/ios`)
+  - geolocator (from `.symlinks/plugins/geolocator/ios`)
+  - orientation (from `.symlinks/plugins/orientation/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  edit_exif:
+    :path: ".symlinks/plugins/edit_exif/ios"
+  Flutter:
+    :path: Flutter
+  flutter_stetho:
+    :path: ".symlinks/plugins/flutter_stetho/ios"
+  geolocator:
+    :path: ".symlinks/plugins/geolocator/ios"
+  orientation:
+    :path: ".symlinks/plugins/orientation/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  camera: a0ca5080336f7af47b88436e5e26da3dee5568f0
+  edit_exif: 2aa9af748753405ba74ea858dc70de92f6fdc606
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_stetho: 0e844616b41b86d6429e86a518ae3a46e83af7cd
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geolocator: 1ae40084cc6c1586ce5ad12cfc3fd38c64d05f2f
+  orientation: 6c9203efe86ce4cff379756910f18b2d745628c3
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+
+PODFILE CHECKSUM: d03d680f9e75b73c6a82a03e11944efef11d2377
+
+COCOAPODS: 1.9.1

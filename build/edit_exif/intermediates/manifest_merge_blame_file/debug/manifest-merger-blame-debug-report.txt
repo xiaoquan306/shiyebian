@@ -3,6 +3,6 @@
 3    package="com.peersafe.edit_exif" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->E:\projects\flutter\Site-Blackboard-App\plugins\edit_exif\android\src\main\AndroidManifest.xml
+5-->E:\projects\flutter\beifen\shiyebian\plugins\edit_exif\android\src\main\AndroidManifest.xml
 6
 7</manifest>

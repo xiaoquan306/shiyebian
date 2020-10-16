@@ -1,7 +1,7 @@
 Executable : C:\Users\P0158609\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-E:\projects\flutter\Site-Blackboard-App\android\app\.cxx\cmake\debug\x86_64
+E:\projects\flutter\beifen\shiyebian\android\app\.cxx\cmake\debug\x86_64
 write_hash
 jvmArgs : 
 
