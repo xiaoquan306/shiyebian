@@ -114,6 +114,65 @@ class BlackboardItem {
     if (id != null) {
       map[BlackboardColumn.id] = id;
     }
+    return map;
+  }
+
+  Map<String, dynamic> toMapSubmit() {
+    var map = <String, dynamic>{
+      BlackboardColumn.caseId: caseId,
+      BlackboardColumn.blackboardId: blackboardId,
+      BlackboardColumn.contructor: contructor,
+      BlackboardColumn.largeClassification: largeClassification,
+      BlackboardColumn.photoClassification: photoClassification,
+      BlackboardColumn.constructionType: constructionType,
+      BlackboardColumn.middleClassification: middleClassification,
+      BlackboardColumn.smallClassification: smallClassification,
+      BlackboardColumn.title: title,
+      BlackboardColumn.classificationRemarks1: classificationRemarks1,
+      BlackboardColumn.shootingSpot: shootingSpot,
+      BlackboardColumn.isRepresentative: isRepresentative,
+      BlackboardColumn.isFrequencyOfSubmission: isFrequencyOfSubmission,
+      BlackboardColumn.contractorRemarks: contractorRemarks,
+      BlackboardColumn.classification: classification,
+      BlackboardColumn.name: name,
+      BlackboardColumn.mark: mark,
+      BlackboardColumn.designedValue: designedValue,
+      BlackboardColumn.measuredValue: measuredValue,
+      BlackboardColumn.unitName: unitName,
+      BlackboardColumn.remarks1: remarks1,
+      BlackboardColumn.createdTime: createdTime,
+      BlackboardColumn.updatedTime: updatedTime,
+      BlackboardColumn.deletedTime: deletedTime
+    };
+
+    if (id != null) {
+      map[BlackboardColumn.id] = id;
+    }
+    if (classificationRemarks2 != '') {
+      map[BlackboardColumn.classificationRemarks2] = classificationRemarks2;
+    }
+    if (classificationRemarks3 != '') {
+      map[BlackboardColumn.classificationRemarks3] = classificationRemarks3;
+    }
+    if (classificationRemarks4 != '') {
+      map[BlackboardColumn.classificationRemarks4] = classificationRemarks4;
+    }
+    if (classificationRemarks5 != '') {
+      map[BlackboardColumn.classificationRemarks5] = classificationRemarks5;
+    }
+
+    if (remarks2 != '') {
+      map[BlackboardColumn.remarks2] = remarks2;
+    }
+    if (remarks3 != '') {
+      map[BlackboardColumn.remarks3] = remarks3;
+    }
+    if (remarks4 != '') {
+      map[BlackboardColumn.remarks4] = remarks4;
+    }
+    if (remarks5 != '') {
+      map[BlackboardColumn.remarks5] = remarks5;
+    }
 
     return map;
   }

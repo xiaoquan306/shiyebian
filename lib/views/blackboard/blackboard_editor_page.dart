@@ -280,10 +280,7 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .text = LangBlackboardTemplates.shootingContent;
                 }
                 if (_blackboardItemSnapshot.data.classificationRemarks1 ==
-                        null ||
-                    _blackboardItemSnapshot
-                            .data.classificationRemarks1.length ==
-                        0) {
+                    null) {
                   _projectInputItems
                       .elementAt(
                           projectItems[BlackboardColumn.classificationRemarks2])
@@ -302,10 +299,7 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .isHidden = true;
                 }
                 if (_blackboardItemSnapshot.data.classificationRemarks2 ==
-                        null ||
-                    _blackboardItemSnapshot
-                            .data.classificationRemarks2.length ==
-                        0) {
+                    null) {
                   _projectInputItems
                       .elementAt(
                           projectItems[BlackboardColumn.classificationRemarks3])
@@ -321,10 +315,7 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                 }
 
                 if (_blackboardItemSnapshot.data.classificationRemarks3 ==
-                        null ||
-                    _blackboardItemSnapshot
-                            .data.classificationRemarks3.length ==
-                        0) {
+                    null) {
                   _projectInputItems
                       .elementAt(
                           projectItems[BlackboardColumn.classificationRemarks4])
@@ -335,18 +326,18 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .isHidden = true;
                 }
                 if (_blackboardItemSnapshot.data.classificationRemarks4 ==
-                        null ||
-                    _blackboardItemSnapshot
-                            .data.classificationRemarks4.length ==
-                        0) {
+                    null) {
                   _projectInputItems
                       .elementAt(
                           projectItems[BlackboardColumn.classificationRemarks5])
                       .isHidden = true;
                 }
 
-                if (_blackboardItemSnapshot.data.remarks1 == null ||
-                    _blackboardItemSnapshot.data.remarks1.length == 0) {
+                if (_blackboardItemSnapshot.data.remarks1 == null &&
+                    _measureInputItems
+                            .elementAt(measureItems[BlackboardColumn.remarks2])
+                            .isHidden ==
+                        false) {
                   _measureInputItems
                       .elementAt(measureItems[BlackboardColumn.remarks2])
                       .isHidden = true;
@@ -360,8 +351,11 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .elementAt(measureItems[BlackboardColumn.remarks5])
                       .isHidden = true;
                 }
-                if (_blackboardItemSnapshot.data.remarks2 == null ||
-                    _blackboardItemSnapshot.data.remarks2.length == 0) {
+                if (_blackboardItemSnapshot.data.remarks2 == null &&
+                    _measureInputItems
+                            .elementAt(measureItems[BlackboardColumn.remarks3])
+                            .isHidden ==
+                        false) {
                   _measureInputItems
                       .elementAt(measureItems[BlackboardColumn.remarks3])
                       .isHidden = true;
@@ -373,8 +367,11 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .isHidden = true;
                 }
 
-                if (_blackboardItemSnapshot.data.remarks3 == null ||
-                    _blackboardItemSnapshot.data.remarks3.length == 0) {
+                if (_blackboardItemSnapshot.data.remarks3 == null &&
+                    _measureInputItems
+                            .elementAt(measureItems[BlackboardColumn.remarks4])
+                            .isHidden ==
+                        false) {
                   _measureInputItems
                       .elementAt(measureItems[BlackboardColumn.remarks4])
                       .isHidden = true;
@@ -382,8 +379,11 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                       .elementAt(measureItems[BlackboardColumn.remarks5])
                       .isHidden = true;
                 }
-                if (_blackboardItemSnapshot.data.remarks4 == null ||
-                    _blackboardItemSnapshot.data.remarks4.length == 0) {
+                if (_blackboardItemSnapshot.data.remarks4 == null &&
+                    _measureInputItems
+                            .elementAt(measureItems[BlackboardColumn.remarks5])
+                            .isHidden ==
+                        false) {
                   _measureInputItems
                       .elementAt(measureItems[BlackboardColumn.remarks5])
                       .isHidden = true;
@@ -442,53 +442,61 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                                               blackboardItemSnapshot.data,
                                           onChange:
                                               (int itemIndex, dynamic value) {
-                                            if (itemIndex == 6) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _projectInputItems
-                                                      .elementAt(projectItems[
-                                                          BlackboardColumn
-                                                              .classificationRemarks2])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    projectItems[BlackboardColumn
+                                                        .classificationRemarks1] &&
+                                                value != null) {
+                                              setState(() {
+                                                _projectInputItems
+                                                    .elementAt(projectItems[
+                                                        BlackboardColumn
+                                                            .classificationRemarks2])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot.data
+                                                    .classificationRemarks2 = '';
+                                              });
                                             }
-                                            if (itemIndex == 7) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _projectInputItems
-                                                      .elementAt(projectItems[
-                                                          BlackboardColumn
-                                                              .classificationRemarks3])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    projectItems[BlackboardColumn
+                                                        .classificationRemarks2] &&
+                                                value != null) {
+                                              setState(() {
+                                                _projectInputItems
+                                                    .elementAt(projectItems[
+                                                        BlackboardColumn
+                                                            .classificationRemarks3])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot.data
+                                                    .classificationRemarks3 = '';
+                                              });
                                             }
-                                            if (itemIndex == 8) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _projectInputItems
-                                                      .elementAt(projectItems[
-                                                          BlackboardColumn
-                                                              .classificationRemarks4])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    projectItems[BlackboardColumn
+                                                        .classificationRemarks3] &&
+                                                value != null) {
+                                              setState(() {
+                                                _projectInputItems
+                                                    .elementAt(projectItems[
+                                                        BlackboardColumn
+                                                            .classificationRemarks4])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot.data
+                                                    .classificationRemarks4 = '';
+                                              });
                                             }
-                                            if (itemIndex == 9) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _projectInputItems
-                                                      .elementAt(projectItems[
-                                                          BlackboardColumn
-                                                              .classificationRemarks5])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    projectItems[BlackboardColumn
+                                                        .classificationRemarks4] &&
+                                                value != null) {
+                                              setState(() {
+                                                _projectInputItems
+                                                    .elementAt(projectItems[
+                                                        BlackboardColumn
+                                                            .classificationRemarks5])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot.data
+                                                    .classificationRemarks5 = '';
+                                              });
                                             }
 
                                             _changeValue(itemIndex, value);
@@ -504,55 +512,66 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
                                               blackboardItemSnapshot.data,
                                           onChange:
                                               (int itemIndex, dynamic value) {
-                                            if (itemIndex == 6) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _measureInputItems
-                                                      .elementAt(measureItems[
-                                                          BlackboardColumn
-                                                              .remarks2])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    measureItems[
+                                                        BlackboardColumn
+                                                            .remarks1] &&
+                                                value != null) {
+                                              setState(() {
+                                                _measureInputItems
+                                                    .elementAt(measureItems[
+                                                        BlackboardColumn
+                                                            .remarks2])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot
+                                                    .data.remarks2 = '';
+                                              });
                                             }
-                                            if (itemIndex == 7) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _measureInputItems
-                                                      .elementAt(measureItems[
-                                                          BlackboardColumn
-                                                              .remarks3])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    measureItems[
+                                                        BlackboardColumn
+                                                            .remarks2] &&
+                                                value != null) {
+                                              setState(() {
+                                                _measureInputItems
+                                                    .elementAt(measureItems[
+                                                        BlackboardColumn
+                                                            .remarks3])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot
+                                                    .data.remarks2 = '';
+                                              });
                                             }
-                                            if (itemIndex == 8) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _measureInputItems
-                                                      .elementAt(measureItems[
-                                                          BlackboardColumn
-                                                              .remarks4])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    measureItems[
+                                                        BlackboardColumn
+                                                            .remarks3] &&
+                                                value != null) {
+                                              setState(() {
+                                                _measureInputItems
+                                                    .elementAt(measureItems[
+                                                        BlackboardColumn
+                                                            .remarks4])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot
+                                                    .data.remarks4 = '';
+                                              });
                                             }
-                                            if (itemIndex == 9) {
-                                              if (value != null ||
-                                                  value.length != 0) {
-                                                setState(() {
-                                                  _measureInputItems
-                                                      .elementAt(measureItems[
-                                                          BlackboardColumn
-                                                              .remarks5])
-                                                      .isHidden = false;
-                                                });
-                                              }
+                                            if (itemIndex ==
+                                                    measureItems[
+                                                        BlackboardColumn
+                                                            .remarks4] &&
+                                                value != null) {
+                                              setState(() {
+                                                _measureInputItems
+                                                    .elementAt(measureItems[
+                                                        BlackboardColumn
+                                                            .remarks5])
+                                                    .isHidden = false;
+                                                blackboardItemSnapshot
+                                                    .data.remarks5 = '';
+                                              });
                                             }
-
                                             _changeMeasureValue(
                                                 itemIndex, value);
                                           }),
@@ -571,6 +590,8 @@ class _BlackboardEditorPageState extends State<BlackboardEditorPage> {
 
   void _save() async {
     // データの保存または変更
+    Map<String, dynamic> newData = _blackboardItemSnapshot.data.toMapSubmit();
+    _blackboardItemSnapshot.data.fromMap(newData);
     if (widget.isCreate) {
       await _bloc.create(_blackboardItemSnapshot.data);
       Navigator.of(context).pop();
@@ -796,183 +817,6 @@ class _TextFieldWidgetState extends State<_TextFieldWidget>
     super.initState();
   }
 
-  Widget _photoShowModalBottomSheet(BuildContext context) {
-    return CupertinoActionSheet(
-      actions: [
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification1,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification1);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification2,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification2);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification3,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification3);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification4,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification4);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification5,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification5);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification6,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification6);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification7,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification7);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification8,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification8);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.photoClassification9,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.photoClassification9);
-          },
-        ),
-      ],
-    );
-  }
-
-  Widget _classificationShowModalBottomSheet(BuildContext context) {
-    return CupertinoActionSheet(
-      actions: [
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.nameItem0,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.nameItem0);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.nameItem1,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.nameItem1);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.nameItem2,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.nameItem2);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.nameItem3,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.nameItem3);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.nameItem9,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.nameItem9);
-          },
-        ),
-      ],
-    );
-  }
-
-  Widget _bigClassificationShowModalBottomSheet(BuildContext context) {
-    return CupertinoActionSheet(
-      actions: [
-        CupertinoActionSheetAction(
-          isDestructiveAction: false,
-          child: Text(LangBlackboardEditor.largeClassification1,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification1);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification2,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification2);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification3,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification3);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification4,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification4);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification5,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification5);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification6,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification6);
-          },
-        ),
-        CupertinoActionSheetAction(
-          child: Text(LangBlackboardEditor.largeClassification7,
-              style: TextStyle(color: Colors.black, fontSize: 14)),
-          onPressed: () {
-            valueChange(LangBlackboardEditor.largeClassification7);
-          },
-        ),
-      ],
-    );
-  }
-
-  valueChange(String cloumnName) {
-    setState(() {
-      _contentController.text = cloumnName;
-      widget.onChanged(cloumnName);
-      Navigator.pop(context);
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     super.build(context);
@@ -1022,6 +866,70 @@ class _TextFieldWidgetState extends State<_TextFieldWidget>
               : null,
         ),
         controller: _contentController);
+  }
+
+  cupertinoActionSheetActionList(List<String> b) {
+    List<Widget> cc = [];
+    b.forEach((element) {
+      cc.add(
+        CupertinoActionSheetAction(
+          child: Text(element,
+              style: TextStyle(
+                color: Colors.black,
+              )),
+          onPressed: () {
+            setState(() {
+              _contentController.text = element;
+              widget.onChanged(element);
+              Navigator.pop(context);
+            });
+          },
+        ),
+      );
+    });
+    return cc;
+  }
+
+  Widget _photoShowModalBottomSheet(BuildContext context) {
+    List<String> columnNameList = [
+      LangBlackboardEditor.photoClassification1,
+      LangBlackboardEditor.photoClassification2,
+      LangBlackboardEditor.photoClassification3,
+      LangBlackboardEditor.photoClassification4,
+      LangBlackboardEditor.photoClassification5,
+      LangBlackboardEditor.photoClassification6,
+      LangBlackboardEditor.photoClassification7,
+      LangBlackboardEditor.photoClassification8,
+      LangBlackboardEditor.photoClassification9
+    ];
+    return CupertinoActionSheet(
+        actions: cupertinoActionSheetActionList(columnNameList));
+  }
+
+  Widget _classificationShowModalBottomSheet(BuildContext context) {
+    List<String> columnNameList = [
+      LangBlackboardEditor.nameItem0,
+      LangBlackboardEditor.nameItem1,
+      LangBlackboardEditor.nameItem2,
+      LangBlackboardEditor.nameItem3,
+      LangBlackboardEditor.nameItem9
+    ];
+    return CupertinoActionSheet(
+        actions: cupertinoActionSheetActionList(columnNameList));
+  }
+
+  Widget _bigClassificationShowModalBottomSheet(BuildContext context) {
+    List<String> columnNameList = [
+      LangBlackboardEditor.largeClassification1,
+      LangBlackboardEditor.largeClassification2,
+      LangBlackboardEditor.largeClassification3,
+      LangBlackboardEditor.largeClassification4,
+      LangBlackboardEditor.largeClassification5,
+      LangBlackboardEditor.largeClassification6,
+      LangBlackboardEditor.largeClassification7
+    ];
+    return CupertinoActionSheet(
+        actions: cupertinoActionSheetActionList(columnNameList));
   }
 }
 
